@@ -1,0 +1,10 @@
+Cluster 0
+['Alexander Zverev', 'Stephane Robert', 'Paolo Lorenzi', 'Carlos Berlocq', 'Malek Jaziri', 'Rogerio Dutra Silva', 'Steve Darcis', 'Konstantin Kravchuk', 'Dudi Sela', 'Horacio Zeballos', 'Mischa Zverev', 'Illya Marchenko', 'Mikhail Kukushkin', 'Albert Ramos', 'Roberto Bautista Agut', 'Joao Sousa', 'Martin Klizan', 'Donald Young', 'Radu Albot', 'Facundo Bagnis', 'Jan Lennard Struff', 'Guido Pella', 'Daniel Evans', 'Dusan Lajovic', 'Federico Delbonis', 'Gastao Elias', 'Andrey Kuznetsov', 'Pierre Hugues Herbert', 'Pablo Carreno Busta', 'Nikoloz Basilashvili', 'Damir Dzumhur', 'Diego Sebastian Schwartzman', 'Jiri Vesely', 'Lucas Pouille', 'Thiago Monteiro', 'Adam Pavlasek', 'Kyle Edmund', 'Yoshihito Nishioka', 'Daniil Medvedev', 'Borna Coric', 'Hyeon Chung', 'Jordan Thompson', 'Karen Khachanov', 'Jared Donaldson', 'Taylor Harry Fritz', 'Francis Tiafoe']
+Cluster 1
+['Ivo Karlovic', 'Roger Federer', 'Feliciano Lopez', 'John Isner']
+Cluster 2
+['Stanislas Wawrinka', 'Jo Wilfried Tsonga', 'Nicolas Almagro', 'Tomas Berdych', 'Kevin Anderson', 'Gael Monfils', 'Andy Murray', 'Novak Djokovic', 'Sam Querrey', 'Marin Cilic', 'Milos Raonic']
+Cluster 3
+['Radek Stepanek', 'Nicolas Mahut', 'David Ferrer', 'Mikhail Youzhny', 'Gilles Muller', 'Philipp Kohlschreiber', 'Fernando Verdasco', 'Andreas Seppi', 'Gilles Simon', 'Marcos Baghdatis', 'Viktor Troicki', 'Rafael Nadal', 'Richard Gasquet', 'Jeremy Chardy', 'Juan Martin Del Potro', 'Alexandr Dolgopolov']
+Cluster 4
+['Guillermo Garcia Lopez', 'Yen Hsun Lu', 'Florian Mayer', 'Juan Monaco', 'Dustin Brown', 'Pablo Cuevas', 'Marcel Granollers', 'Denis Istomin', 'Robin Haase', 'Fabio Fognini', 'Santiago Giraldo', 'Adrian Mannarino', 'Benoit Paire', 'Steve Johnson', 'Kei Nishikori', 'David Goffin', 'Grigor Dimitrov', 'Ryan Harrison', 'Jack Sock', 'Bernard Tomic', 'Dominic Thiem', 'Nick Kyrgios']
