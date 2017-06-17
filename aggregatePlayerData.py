@@ -5,7 +5,7 @@ output_csv_name = './tennis_atp-master/player_statics.csv'
 result_list = []
 header_statics=['playerName', 'rank', 'ace', 'serPt', 'df', 'p_1stSerIn', 'p_2ndSerIn',
                 'p_1stWon', 'p_2ndWon', 'bpSaved','bpFaced', 'bpConverted', 'bpGet',
-                'retPtWon', 'retPt', 'serGmWon', 'serGm', 'retGmWon', 'retGm']
+                'retPtWon', 'retPt', 'serGmWon', 'serGm', 'retGmWon', 'retGm', 'turn_pro_year']
 
 
 def read_player_data(player, rank, startyear = 1968, endyear = 2017):
@@ -19,6 +19,7 @@ def read_player_data(player, rank, startyear = 1968, endyear = 2017):
         else:
             statics[keyword] = 0
 
+    isAppear = False
     for year in range(startyear, endyear+1): # from staryear to endyear(inclusive)
         with open('./tennis_atp-master/atp_matches_'+str(year)+'.csv') as f:
             csvfile = csv.reader(f)
@@ -34,6 +35,10 @@ def read_player_data(player, rank, startyear = 1968, endyear = 2017):
                         return x
                 row = Row(*map(g, r))
                 if row.winner_name == player: # if the player is winner of the match
+                    if isAppear == False:  # search for turn pro year
+                        isAppear = True
+                        statics['turn_pro_year'] = year
+
                     statics['ace'] += int(row.w_ace)
                     statics['serPt'] += int(row.w_svpt)
                     statics['df'] += int(row.w_df)
@@ -52,6 +57,10 @@ def read_player_data(player, rank, startyear = 1968, endyear = 2017):
                     statics['retGmWon'] += int(row.l_bpFaced) - int(row.l_bpSaved)
                     statics['retGm'] += int(row.l_SvGms)
                 elif row.loser_name == player: # if the player is loser of the match
+                    if isAppear == False:  # search for turn pro year
+                        isAppear = True
+                        statics['turn_pro_year'] = year
+
                     statics['ace'] += int(row.l_ace)
                     statics['serPt'] += int(row.l_svpt)
                     statics['df'] += int(row.l_df)
